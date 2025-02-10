@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greeting to Aaron Sir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello Aaron Sir,</h1>
+        <h2>How are you?</h2>
+        
+        <div class="options">
+            <button onclick="selectOption('Great')">Great</button>
+            <button onclick="selectOption('Very Great')">Very Great</button>
+        </div>
+        
+        <div id="response" class="response"></div>
+
+        <div class="grading-section">
+            <h3>Grade My Performance</h3>
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="0" class="grade-slider" id="gradeSlider">
+                <span class="grade-value" id="gradeValue">0%</span>
+            </div>
+            <button onclick="submitGrade()" class="grade-submit">Submit Grade</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
