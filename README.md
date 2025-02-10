@@ -85,5 +85,6 @@ g++ webserver.cpp -o myserver.exe -lws2_32
 The server utilizes socket programming to handle HTTP requests, serving static files and managing client connections through multi-threading. The frontend implements modern web technologies for an engaging user experience.
 
 ---
-THANK YOU ! 
-Made with LOVE for AARON SIR by SHREYAS BHANDARY
+*Thank You!*
+---
+*Made with LOVE for AARON SIR by SHREYAS BHANDARY*
